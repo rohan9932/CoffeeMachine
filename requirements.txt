@@ -1,0 +1,20 @@
+1. First ask the user what they want to do.
+2. If they want to off simply end the program.
+3. elif they want to see the report just show them how much water, milk and coffee left.
+4. or else if they want to order then:
+    i. Ask them what they want to order.
+    ii. Then check if enough ingrediants are available for making that product.
+    iii. If not available end the program.
+    iv. If available then make the product and deduct the amount of product that was used.
+    v. Enter coins.
+    vi. If not sufficient refund it and return to the main menu.
+    vii. If sufficient then hand over the product and return the cash.
+5. loop the process until user enters off.
+
+
+FUNCTION REQUIREMENTS :
+    1. Make a function for the whole machine.
+    2. Make a function for inserting coins which will return the total amount.
+    3. Make a fucntion for checking resources which will take input the resources dictionary and take menu[coffee] as input and check if there is enough resources available and return the update.
+    4. Make a function for placing order.
+    5. Make a function for deducting items that were used previously from the resources.
